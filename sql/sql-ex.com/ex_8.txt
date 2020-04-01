@@ -1,0 +1,7 @@
+Select Distinct maker
+From Product
+Where type = 'PC'
+Except
+Select maker
+From Product
+Where type = 'Laptop'

@@ -1,0 +1,3 @@
+Select Distinct maker
+From Product
+Where type = 'PC' and model In (Select model From PC Where speed >= 450)

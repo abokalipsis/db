@@ -1,0 +1,5 @@
+Select distinct maker, speed
+From Laptop
+Inner Join Product
+On Product.model = Laptop.model
+Where hd >= 10

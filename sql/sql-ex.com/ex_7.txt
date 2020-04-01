@@ -1,0 +1,11 @@
+Select model, price
+From PC
+Where model In (Select model from Product where maker = 'B')
+Union
+Select model, price
+From Laptop
+Where model In (Select model from Product where maker = 'B')
+Union
+Select model, price
+From Printer
+Where model In (Select model from Product where maker = 'B')

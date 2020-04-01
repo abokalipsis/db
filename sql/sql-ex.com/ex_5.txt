@@ -1,0 +1,3 @@
+Select model, speed, hd
+From PC
+Where price < 600 And (cd = '12x' Or cd = '24x')

@@ -1,0 +1,3 @@
+Select Top 1 With Ties model, price
+From Printer
+Order By Price Desc
